@@ -1,6 +1,6 @@
 ## DevOps Cloud Computing Projects
 
-* **GCP Delay ML Model App**
+### GCP Delay ML Model App
 
 This project was part of an interview process challenge for airline company, where a XGBoost 
 Classification model was developed and trained to predict flight delays. The model was 
