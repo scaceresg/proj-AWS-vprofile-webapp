@@ -1,9 +1,15 @@
-## DevOps Cloud Computing Projects
+## VProfile Web Application on AWS
 
-### GCP Delay ML Model App
+### About VProfile
 
-This project was part of an interview process challenge for airline company, where a XGBoost 
-Classification model was developed and trained to predict flight delays. The model was 
-implemented using Python 3 and an API was built using FastAPI and deployed on Google Cloud Run.
+VProfile is a website written in Java by [hkhcoder](https://github.com/hkhcoder/vprofile-project.git). 
 
-The project is located in another [repository](https://github.com/scaceresg/proj-challenge-LATAM.git).
+The architecture of the project services is shown below:
+
+![](https://miro.medium.com/v2/resize:fit:1189/1*cP0KJ_UOjHhUHCdxSDIsCw.png)
+
+#### Project Services
+
+* Nginx: Load balancer for the app
+
+*  
