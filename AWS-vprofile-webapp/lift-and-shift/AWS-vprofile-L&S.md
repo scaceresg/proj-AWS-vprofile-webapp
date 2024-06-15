@@ -8,41 +8,7 @@
 
 * Lift & Shift strategy is used
 
-**Scenario**: Suppose there are many application services running on physical/virtual machines and all the workload is located in a local datacenter.
-
-Several teams are required in this current situation: Virtualisation, data center operations team, monitoring team, system administration team, etc.
-
-**The Problem of the Current State**:
-
-* Managing teams and data gets complex
-
-* Even more when you want to scale up or down
-
-* Huge costs for procuring and maintaining these resources (Upfront CAPEX and regular OPEX)
-
-* Most processes are manual and difficult to automate
-
-* Time consuming processes
-
-**The Solution**: A Cloud Computing Setup!
-
-A Cloud Setup allows:
-
-* Avoiding CAPEX 
-
-* Paying as you go (Like electricity bills)
-
-* Consuming IaaS (Infrastructure as a Service)
-
-* Flexible 
-
-* Elastic in nature: we can scale up or down
-
-* Control of costs
-
-* Automation to avoid human errors and save time
-
-### AWS Services 
+### AWS Services used
 
 * EC2 instances: VMs used for Tomcat, RabbitMQ, Memcache, MySQL servers
 
@@ -53,16 +19,6 @@ A Cloud Setup allows:
 * S3/EFS storage: Shared storage
 
 * Route 53: Private DNS service
-
-**Objective**
-
-* Flexible infrastructure
-
-* Use the Pay as we go model
-
-* Modernise the app effectively
-
-* Use Infrastructure as a Code (IaaC)
 
 ### Architecture of AWS services
 
@@ -84,7 +40,7 @@ The AWS sources we will be using in the project are:
 
 ### Flow of Execution
 
-1. Login to AWS Account
+1. Get into AWS Account
 
 2. Create Key Pairs for our instances
 
