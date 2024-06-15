@@ -44,3 +44,26 @@ The AWS services used in the project:
 
 ![](AWS-architecture.png)
 
+
+### Flow of Execution
+
+1. Get into AWS Account
+
+2. Create Key Pairs for our instances
+
+3. Create Security Groups for LB, Tomcat and backend services
+
+4. Launch instances with user data: bash scripts
+
+5. Update IP to name mapping in route 53
+
+6. Build application from source code
+
+7. Upload to S3 bucket
+
+8. Download artifact to Tomcat EC2 instance
+
+9. Setup ELB with HTTPS (Certificate from Amazon Certificate Manager)
+
+10. Map ELB endpoint to website name in GoDaddy's DNS
+
